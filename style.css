@@ -1,0 +1,109 @@
+/* GENEL AYARLAR */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #4a5b41; /* koyu yeşil */
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: #000; /* siyah üst bar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+/* Linkler sağda */
+.top-links {
+  font-size: 14px;
+  text-align: right;
+}
+
+.top-links a {
+  color: #e3d36a; /* sarı linkler */
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* ANA İÇERİK */
+main {
+  padding: 20px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  border-bottom: 2px solid #96a77f;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.highlight {
+  color: #e3d36a;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* TRY STEAM NOW! Küçük ve Ortalanmış */
+.try-steam {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.centered-call {
+  font-size: 14px;
+  font-weight: bold;
+  color: #e3d36a;
+  font-family: Arial, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+  background: #4a5b41;
+  color: #ccc;
+}
+
+footer .valve-logo {
+  margin-bottom: 10px;
+}
+
+footer .valve-logo img {
+  height: 30px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin: 10px 0;
+}
+
+.footer-links a {
+  color: #e3d36a;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
